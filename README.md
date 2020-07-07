@@ -17,7 +17,7 @@ APPROACH
 Response variable: Attrition_rate <br>
 Evaluation Metric: Score = 100*max(0,1-RMSE(actual_values, predicted_values)) <br>
 R language is used for programming. <br>
-The R script provides the entire analysis and machine learning models (GBM/XGBoost/Light GBM/CatBoost). <br>
+The R script provides the entire analysis and machine learning models (GBM/Random Forest/XGBoost/Light GBM/Ridge Regression/Lasso Regression). <br>
 The Jupter Notebook provides the details of the analysis and the final model written in R. <br>
 
 R script: emp_attrition.R <br>
